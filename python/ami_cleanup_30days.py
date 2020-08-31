@@ -24,4 +24,4 @@ for ami in amis['Images']:
     if day_old > age:
         print "deleting -> " + ami_id + " - create_date = " + create_date
         # deregister the AMI
-        ec2.deregister_image(ImageId=ami_id) #comment out this line first to see if all correct images older than 30 days print out as a test
+        ec2.deregister_image(ImageId=ami_id) #comment out this line first to see if all the correct images older than 30 days print out as a test
