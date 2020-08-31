@@ -8,3 +8,6 @@ Scripts can be found under their respected folders. For example all Python scrip
 
 # ami_cleanup_30days.py
 Deregister/delete all ami images on AWS older than 30 days.
+
+# ami_cleanup_3versions.py
+Deregister/delete all ami images on AWS older than 3 versions. Only the 3 latest versions will remain
